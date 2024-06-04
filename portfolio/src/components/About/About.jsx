@@ -23,10 +23,10 @@ const About = () => {
             Committed to continuous learning and innovation to deliver high-quality software products.</p>
           </div>
           <div className='about-skills'>
-            <div className='about-skill'><p>HTML & CSS</p><hr style={{width:"80%"}}></hr></div>
-            <div className='about-skill'><p>JavaScript</p><hr style={{width:"70%"}}></hr></div>
-            <div className='about-skill'><p>Python</p><hr style={{width:"70%"}}></hr></div>
-            <div className='about-skill'><p>React.js</p><hr style={{width:"60%"}}></hr></div>
+            <div className='about-skill'><p>HTML & CSS</p><hr style={{width:"70%"}}></hr></div>
+            <div className='about-skill'><p>JavaScript</p><hr style={{width:"60%"}}></hr></div>
+            <div className='about-skill'><p>Python</p><hr style={{width:"60%"}}></hr></div>
+            <div className='about-skill'><p>React.js</p><hr style={{width:"50%"}}></hr></div>
           </div>
         </div>
       </div>
