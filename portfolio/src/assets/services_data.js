@@ -20,5 +20,5 @@ const Services_Data = [
         s_desc:"Crafting and executing strategies that enhance brand visibility and drive business growth."
     },
 ]
- 
+
 export default Services_Data;
