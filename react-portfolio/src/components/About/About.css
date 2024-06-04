@@ -102,6 +102,12 @@
   transition: 0.5s;
 }
 
+@media screen and (max-width:1380px) {
+  .about-left {
+    display: none;
+  }
+}
+
 @media(max-width:768px) {
   .about {
     gap: 80px;
@@ -161,5 +167,25 @@
   .about-achievement p {
     text-align: center;
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .about-achievements {
+    justify-content: space-between;
+  }
+
+  .about-achievement {
+    gap: 10px;
+  }
+
+  .about-achievement h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .about-achievement p {
+    text-align: center;
+    font-size: 12px;
   }
 }

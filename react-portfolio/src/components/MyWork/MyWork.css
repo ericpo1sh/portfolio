@@ -61,7 +61,7 @@
   .mywork {
     gap: 50px;
     margin: 50px 70px;
-    align-items: start;
+    align-items: center;
   }
 
   .mywork-title h1 {
@@ -76,7 +76,7 @@
   }
 
   .mywork-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 30px;
   }
 
@@ -91,6 +91,28 @@
     margin: 50px auto;
     cursor: pointer;
   }
+}
 
-  
+@media screen and (max-width:1380px) {
+  .mywork-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width:930px) {
+  .mywork-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .mywork-title h1 {
+    padding: 0;
+    font-size: 70px;
+    font-weight: 600;
+  }
+
+  .mywork-title {
+    text-align: center;
+  }
 }

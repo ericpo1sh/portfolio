@@ -71,6 +71,13 @@
   transition: 0.4s;
 }
 
+@media screen and (max-width:1440px) {
+  .services-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
 @media screen and (max-width:768px) {
   .services {
     align-items: start;
@@ -112,3 +119,18 @@
     gap: 30px;
   }
 }
+
+
+@media screen and (max-width:570px) {
+  .services {
+    align-items: center;
+    gap: 70px;
+    margin: 20px 70px;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+

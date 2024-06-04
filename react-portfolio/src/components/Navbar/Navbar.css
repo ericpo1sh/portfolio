@@ -51,7 +51,7 @@
   display: none;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1380px) {
   .navbar {
     margin: 20px 50px;
   }

@@ -112,11 +112,71 @@
   transition: 0.3s;
 }
 
+#media_hrefs {
+  gap: 25px;
+  cursor: pointer;
+}
+
+.linkedin {
+  transition: 0.9s;
+}
+
+.linkedin:hover {
+  transition: 0.9s;
+  transform: scale(1.5);
+}
+
+.github {
+  transition: 0.9s;
+}
+
+.github:hover {
+  transition: 0.9s;
+  transform: scale(1.5);
+}
+
+@media screen and (max-width:1180px) {
+  .contact {
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: center;
+  }
+
+  .contact-right label {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .contact-right input {
+    border: none;
+    width: 300px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #323232;
+    color: white;
+    font-family: outfit;
+    font-size: 20px;
+  }
+  
+  .contact-right textarea {
+    width: 270px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #323232;
+    color: white;
+    font-family: outfit;
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width:768px) {
   .contact {
     gap: 50px;
     margin: 50px 70px;
-    align-items: start;
+    align-items: center;
   }
 
   .contact-title h1 {
@@ -160,7 +220,7 @@
   }
 
   .contact-right textarea {
-    width: 95%;
+    width: 94%;
     font-size: 20px;
   }
 

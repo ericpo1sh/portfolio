@@ -3,6 +3,8 @@ import './Contact.css'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
+import github_logo from '../../assets/github_logo.svg'
+import linkedin_logo from '../../assets/linkedin_logo.svg'
 
 const Contact = () => {
 
@@ -34,7 +36,6 @@ const Contact = () => {
   return (
     <div className='contact' id='contact'>
       <div className='contact-title'>
-        <h1>Get in touch</h1>
       </div>
       <div className='contact-section'>
         <div className='contact-left'>
@@ -49,6 +50,10 @@ const Contact = () => {
             </div>
             <div className='contact-detail'>
               <img src={location_icon} width={'38px'} height={'28px'}></img><p>Tulsa, OK</p>
+            </div>
+            <div className='contact-detail' id='media_hrefs'>
+              <a href='https://www.linkedin.com/in/ericdzyk'><img className='linkedin' src={linkedin_logo} width={'40px'} height={'35px'}></img></a>
+              <a href='https://github.com/ericpo1sh'><img className='github' src={github_logo} width={'40px'} height={'35px'}></img></a>
             </div>
           </div>
         </div>
