@@ -1,33 +1,23 @@
 const Services_Data = [
     {
         s_no:"01",
-        s_name:"Web design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Frontend Web Development",
+        s_desc:"Specialize in creating and implementing the visual and interactive elements of web applications."
     },
     {
         s_no:"02",
-        s_name:"Graphics design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Backend Web Development",
+        s_desc:"Designing, developing, and maintaining the server-side logic of web applications."
     },
     {
         s_no:"03",
-        s_name:"Social media",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Graphic Design",
+        s_desc:"Designing custom logos, thumbnails and images for social media."
     },
     {
         s_no:"04",
-        s_name:"App design",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"05",
-        s_name:"Digital marketing",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"06",
-        s_name:"Content writing",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Media Marketing",
+        s_desc:"Crafting and executing strategies that enhance brand visibility and drive business growth."
     },
 ]
  

@@ -14,10 +14,12 @@ const MyWork = () => {
           return <img key={index} src={work.w_img}></img>
         })}
       </div>
-      <div className='mywork-showmore'>
-        <p>Show More</p>
-        <img src={arrow_icon} alt=''></img>
-      </div>
+      <a href='https://github.com/ericpo1sh'>
+        <div className='mywork-showmore'>
+          <p>Show More</p>
+          <img src={arrow_icon} alt=''></img>
+        </div>
+      </a>
     </div>
   )
 }
