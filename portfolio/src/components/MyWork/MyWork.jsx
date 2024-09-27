@@ -11,7 +11,7 @@ const MyWork = () => {
       </div>
       <div className='mywork-container'>
         {mywork_data.map((work, index)=>{
-          return <img key={index} src={work.w_img}></img>
+          return <a href={work.w_link}><img key={index} src={work.w_img}></img></a>
         })}
       </div>
       <a href='https://github.com/ericpo1sh'>

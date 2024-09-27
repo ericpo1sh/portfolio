@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/template_prof_pic.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import resume from '../../assets/Dzyk-Eric-FS-Resume.pdf'
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
       both front-end and back-end development.</p>
       <div className='hero-action'>
         <div className='hero-connect'><AnchorLink className='anchor-link' href='#contact'>Connect with me</AnchorLink></div>
-        <div className='hero-resume'>My Resume</div>
+        <div className='hero-resume'><a href={resume}>My Resume</a></div>
       </div>
     </div>
   )
