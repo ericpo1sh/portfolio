@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       <hr></hr>
       <div className='footer-bottom'>
-        <p className='footer-bottom-left'>© 2024 Eric Dzyk. All right reserved.</p>
+        <p className='footer-bottom-left'>© 2024 Eric Dzyk. All rights reserved.</p>
         <div className='footer-bottom-right'>
           <p>Terms of Services</p>
           <p>Privacy Policy</p>

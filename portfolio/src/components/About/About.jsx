@@ -11,7 +11,7 @@ const About = () => {
       </div>
       <div className='about-sections'>
         <div className='about-left'>
-          <img src={profile_img} alt=''></img>
+          <img src={profile_img} alt='Me'></img>
         </div>
         <div className='about-right'>
           <div className='about-para'>
@@ -37,7 +37,7 @@ const About = () => {
         </div>
         <hr></hr>
         <div className='about-achievement'>
-          <h1>37+</h1>
+          <h1>42+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
         <hr></hr>

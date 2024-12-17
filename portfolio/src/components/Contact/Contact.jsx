@@ -40,7 +40,7 @@ const Contact = () => {
       <div className='contact-section'>
         <div className='contact-left'>
           <h1>Let's chat!</h1>
-          <p>While I'm studying at Atlas, I'm also availiable to take on new projects, so feel free to let me know what you have in mind.</p>
+          <p>I'm availiable to take on new projects, so feel free to let me know what you have in mind.</p>
           <div className='contact-details'>
             <div className='contact-detail'>
               <img src={mail_icon}></img><p>ericpo1sh@gmail.com</p>
