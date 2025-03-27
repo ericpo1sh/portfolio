@@ -7,6 +7,12 @@ import project6_img from '../assets/schoolproject5.png'
 
 const mywork_data = [
     {
+        w_no:6,
+        w_name:"Web design",
+        w_img:project4_img,
+        w_link:"https://udv2hlvt9d.wpdns.site/"
+    },
+    {
         w_no:1,
         w_name:"Web design",
         w_img:project5_img,
@@ -35,12 +41,6 @@ const mywork_data = [
         w_name:"Web design",
         w_img:project3_img,
         w_link:"https://github.com/O-01/holbertonschool-simple_shell/blob/master/README.md"
-    },
-    {
-        w_no:6,
-        w_name:"Web design",
-        w_img:project4_img,
-        w_link:"https://ericpo1sh.github.io/atlas-smiling-school-javascript/homepage.html"
     },
 ]
  
